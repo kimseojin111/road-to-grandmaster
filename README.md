@@ -5,7 +5,7 @@ This repository tracks my progress, practice logs, and key learnings as I strive
 
 ## 👤 Profile
 
-- **Handle:** [JinyeongAckermand](https://codeforces.com/profile/JinyeongAckermand)  
+- **Handle:** [JinyeongAckerman](https://codeforces.com/profile/JinyeongAckerman)  
 - **Current Rank:** Master  
 - **Goal:** Grandmaster (2400+)
 
