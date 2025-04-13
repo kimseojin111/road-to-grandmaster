@@ -11,5 +11,3 @@ This repository tracks my progress, practice logs, and key learnings as I strive
 
 ## 🧭 Goals
 - [ ] Reach Grandmaster by [2025-08]
-
-Stay tuned for updates on my road to red! 🔥
