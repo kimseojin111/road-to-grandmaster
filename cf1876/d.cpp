@@ -67,7 +67,7 @@ long long inv(long long a, long long b){
 using namespace atcoder; 
 using mint = modint998244353; 
 
-const int N = 2010; 
+const int N = 4010; 
 mint fac[N],rfac[N]; 
 
 mint ncr(int n, int r){

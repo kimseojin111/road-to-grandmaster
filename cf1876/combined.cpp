@@ -593,9 +593,9 @@ using is_dynamic_modint_t = std::enable_if_t<is_dynamic_modint<T>::value>;
 }  // namespace atcoder
 
 using namespace atcoder; 
-using mint = modint998244353; 
+using mint = modint1000000007; 
 
-const int N = 2010; 
+const int N = 4010; 
 mint fac[N],rfac[N]; 
 
 mint ncr(int n, int r){
@@ -610,6 +610,7 @@ void solve(){
     if(k>n||k>m){
         cout << 0 << "\n"; return; 
     }
+    dbg(ncr(n+m,k).val())
     mint ans = ncr(n+m,k) - ncr(n+m,k-1); 
     cout << ans.val() << "\n"; 
 }
