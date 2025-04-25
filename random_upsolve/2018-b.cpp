@@ -63,42 +63,72 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
+#include <atcoder/segtree>
 using namespace atcoder; 
-using mint = modint1000000007; 
 
-const int N = 520; 
-mint ed[N][N]; 
+const int inf = 1e7; 
+
+struct node{
+    // 01 왼끝 01 오른끝 01 내가 max를 포함? 
+    int dp[2][2][2]; 
+    node() {
+        rep(i,2) rep(j,2) rep(k,2) dp[i][j][k] = -inf; 
+        dp[0][0][0] = 0; 
+    }
+    node(int p){
+        // p 1 max else 0 
+        rep(i,2) rep(j,2) rep(k,2) dp[i][j][k] = -inf; 
+        dp[0][0][0] = 0; 
+        if(p) dp[1][1][1] = 1; 
+        else dp[1][1][0] = 1; 
+    }
+};
+
+node e() {
+    node re; return re; 
+}
+
+node op(node a, node b){
+    node re; 
+    rep(i,2) rep(j,2) rep(k,2) rep(p,2) rep(q,2) rep(r,2){
+        if(j==1&&p==1) continue; 
+        re.dp[i][q][k|r] = max(re.dp[i][q][k|r],a.dp[i][j][k]+b.dp[p][q][r]); 
+    }
+    return re; 
+}
 
 void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
+    int n; cin>>n; 
+    vector<pair<int,int>> v; 
+    int mx = -1; 
+    vector<int> a(n); rep(i,n) {
+        cin >> a[i]; v.pb({a[i],i}); mx = max(mx,a[i]); 
+    }
+    sort(all(v),[](auto a, auto b){
+        return a.first > b.first; 
+    }); 
+    segtree<node,op,e> seg(n); 
+    ll ans = 0; 
+    for(int i=0;i<v.size();i++){
+        auto [aj,j] = v[i]; 
+        if(aj==mx){
+            seg.set(j,node(1)); 
         }
+        else seg.set(j,node(0)); 
+        auto f = seg.all_prod(); 
+        ll shit = 0; 
+        rep(p,2) rep(q,2) shit = max(shit,(ll)f.dp[p][q][1]); 
+        ans = max(ans,shit+mx+aj); 
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
-    }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
-    }
-    cout << ans.val();
-    
+    cout << ans << "\n";
+
 }
 
 signed main() {
    cin.tie(0)->ios::sync_with_stdio(0);
    cout.tie(nullptr);
    int t = 1;
-   //cin >> t;
+   cin >> t;
    while(t--) solve(); 
    return 0;
 }

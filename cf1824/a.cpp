@@ -63,42 +63,49 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
-using namespace atcoder; 
-using mint = modint1000000007; 
-
-const int N = 520; 
-mint ed[N][N]; 
+const int N = 100010; 
+int p[N]; 
+int a[N]; 
 
 void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
+    int n,m; cin>>n>>m; 
+    rrep(i,m) p[i] = 0,a[i]=0; 
+    int L=0,R=0; 
+    vector<int>v; 
+    rep(i,n){
+        int x; cin>>x; if(x==-1)L++; if(x==-2)R++; 
+        if(x>0) {
+            a[x]=1; v.pb(x); 
         }
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
+    rrep(i,m) p[i] = p[i-1]+a[i]; 
+    sort(all(v)); v.erase(unique(all(v)),v.end()); 
+    int ans = 0; 
+    //dbg(v,L,R)
+    for(int i=0;i<v.size();i++){
+        int xi = v[i]; 
+        int le = min(L+p[xi-1],xi-1); 
+        int rr = min(R+p[m]-p[xi],m-xi); 
+        //dbg(le,rr)
+        ans = max(le+rr+1,ans); 
     }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
+    if(L){
+        int k = min(m-1,p[m-1]+L-1) + 1; 
+        ans = max(ans,k); 
     }
-    cout << ans.val();
-    
+    if(R){
+        int k = min(m-1,p[m]-p[1]+R-1)+1; 
+        ans = max(ans,k); 
+    }
+    cout << ans << "\n";
+
 }
 
 signed main() {
    cin.tie(0)->ios::sync_with_stdio(0);
    cout.tie(nullptr);
    int t = 1;
-   //cin >> t;
+   cin >> t;
    while(t--) solve(); 
    return 0;
 }

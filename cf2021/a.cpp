@@ -63,42 +63,57 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
-using namespace atcoder; 
-using mint = modint1000000007; 
-
-const int N = 520; 
-mint ed[N][N]; 
-
+const ll inf = 2e18; 
 void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
+    int n,m; cin>>n>>m; 
+    vector<vector<ll>> a(n+1,vector<ll>(m+2,0)); 
+    rrep(i,n) rrep(j,m) cin>>a[i][j]; 
+    vector<vector<ll>> dp(n+1,vector<ll>(m+1)); 
+    vector<vector<ll>> dpL(n+1,vector<ll>(m+1)); 
+    vector<vector<ll>> dpR(n+1,vector<ll>(m+1)); 
+    rrep(i,n){
+        vector<ll> sum(m+1); 
+        if(i==1){
+            dpL[1][m-1] = a[1][m]; 
+            for(int i=m-2;i>=0;i--) dpL[1][i] = max(0LL,dpL[1][i+1]) + a[1][i+1];
+            dpR[1][1] = a[1][1]; 
+            for(int j=2;j<=m;j++) dpR[1][j] = a[1][j] + max(0LL,dpR[1][j-1]); 
+            rrep(j,m-1) dp[1][j] = max(dpL[1][j],dpR[1][j]); 
+            continue; 
+        }
+        rrep(j,m) sum[j] = sum[j-1]+a[i][j]; 
+        vector<ll> sfM(m+1),pfm(m+1); 
+        pfm[1] = sum[0]; 
+        for(int p=2;p<=m-1;p++) pfm[p] = min(pfm[p-1],sum[p-1]); 
+        sfM[m-1] = sum[m]; 
+        for(int p=m-2;p>=1;p--) sfM[p] = max(sfM[p+1],sum[p+1]); 
+        ll mx = -inf; 
+        for(int l=m-2;l>=0;l--){
+            mx = max(mx,dp[i-1][l+1]+sfM[l+1]); 
+            dpL[i][l] = mx-sum[l]; 
+        }
+        mx = -inf; 
+        for(int r=2;r<=m;r++){
+            mx = max(mx,dp[i-1][r-1]-pfm[r-1]); 
+            dpR[i][r] = mx+sum[r]; 
+        }
+        for(int j=1;j<=m-1;j++) {
+            dp[i][j] = max(dpL[i][j],dpR[i][j]); 
+            dbg(i,j,dpL[i][j],dpR[i][j])
         }
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
-    }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
-    }
-    cout << ans.val();
-    
+    ll mx = -inf; 
+    for(int j=1;j<=m-1;j++) mx=max(mx,dp[n][j]); 
+    mx = max(mx,dpL[n][0]); 
+    mx = max(mx,dpR[n][m]); 
+    cout << mx << "\n";
 }
 
 signed main() {
    cin.tie(0)->ios::sync_with_stdio(0);
    cout.tie(nullptr);
    int t = 1;
-   //cin >> t;
+   cin >> t;
    while(t--) solve(); 
    return 0;
 }

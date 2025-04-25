@@ -63,42 +63,20 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
-using namespace atcoder; 
-using mint = modint1000000007; 
-
-const int N = 520; 
-mint ed[N][N]; 
-
 void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
-        }
+    int n; cin>>n;
+    set<int> s; 
+    rep(i,n){
+        int a; cin>>a; s.insert(a); 
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
-    }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
-    }
-    cout << ans.val();
-    
+    cout << s.size() << "\n";
 }
 
 signed main() {
    cin.tie(0)->ios::sync_with_stdio(0);
    cout.tie(nullptr);
    int t = 1;
-   //cin >> t;
+   cin >> t;
    while(t--) solve(); 
    return 0;
 }

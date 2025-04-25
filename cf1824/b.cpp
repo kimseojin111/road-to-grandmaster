@@ -65,33 +65,65 @@ long long inv(long long a, long long b){
 
 #include <atcoder/modint>
 using namespace atcoder; 
-using mint = modint1000000007; 
+using mint = modint1000000007;
+const int N = 200010; 
+int par[N]; 
+vector<int> adj[N]; 
+int sz[N]; 
 
-const int N = 520; 
-mint ed[N][N]; 
+ll dp[N]; 
+
+mint ans = 1; 
+
+
+mint fac[N]; 
+mint rfac[N]; 
+
+mint ncr(int n, int r){
+    if(r<0||r>n) return (mint)0; 
+    return fac[n]*rfac[r]*rfac[n-r]; 
+}
+int k; int n; 
+int rt = 1; 
+void dfs(int v, int p){
+    sz[v] = 1; 
+    par[v] = p; 
+    for(auto ne : adj[v]) if(ne!=p) {
+        dfs(ne,v); 
+        sz[v] += sz[ne]; 
+        dp[v] += dp[ne] + sz[ne]; 
+    }
+    if(v!=p){
+        dbg(v,sz[v])
+        ans = ans + ncr(sz[v],k/2)*ncr(n-sz[v],k/2)/ncr(n,k); 
+    }
+}
+mint fuck; 
+void dfss(int v, int p){
+    dbg(v,dp[v])
+    fuck += dp[v]; 
+    for(auto ne : adj[v]) if(ne!=p){
+        dp[ne] = dp[v] + n - sz[ne]*2; 
+        dfss(ne,v); 
+    }
+}
 
 void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
-        }
+    cin>>n>>k; 
+    if(k&1){
+        cout << 1; return;  
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
+    rep(i,n-1){
+        int a,b; cin>>a>>b; adj[a].pb(b); adj[b].pb(a); 
     }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
+    fac[0] = 1; 
+    rfac[0] = 1; 
+    for(int i=1;i<N;i++){
+        fac[i] = fac[i-1]*i; 
+        rfac[i] = 1/fac[i]; 
     }
+    dfs(1,1); 
     cout << ans.val();
-    
 }
 
 signed main() {

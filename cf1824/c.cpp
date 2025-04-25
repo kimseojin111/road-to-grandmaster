@@ -63,35 +63,83 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
-using namespace atcoder; 
-using mint = modint1000000007; 
+const int N = 100010;
+int a[N];
+vector<int> adj[N]; 
 
-const int N = 520; 
-mint ed[N][N]; 
+struct xor_set{
+    set<int> s; 
+    int key; 
+}; 
 
-void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
+int dp[N]; 
+xor_set dpv[N]; 
+
+void merge(xor_set &a, xor_set& b, map<int,int>&M){
+    if(a.s.size()<b.s.size()) {
+        swap(a,b); 
+    }   
+    // a 가 par 이다. 
+    for(auto x:b.s){
+        int xx = x^b.key^a.key; 
+        if(a.s.find(xx)!=a.s.end()){
+            M[x^b.key]++; 
+        }
+        else {
+            a.s.insert(xx); 
         }
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
+}
+
+void dfs(int v, int p){
+    dbg(v)
+    map<int,int> M; 
+    int c = 0; 
+    for(auto ne : adj[v]) if(ne!=p){
+        dfs(ne,v); 
+        c++; 
+        merge(dpv[v],dpv[ne],M); 
+        dp[v] += dp[ne]; 
     }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
+    if(c==0){
+        dpv[v].key = a[v]; 
+        dpv[v].s.insert(0); 
+        return; 
     }
-    cout << ans.val();
-    
+    if(M.empty()){
+        dp[v] += max(c-1,0); 
+        dpv[v].key ^= a[v]; return; 
+    }
+    else {
+        vector<int> can; 
+        int mx = 0; 
+        for(auto [k,v]:M) {
+            if(mx<v){
+                can.clear(); can.pb(k); mx=v;
+            }
+            else if(mx==v){
+                can.pb(k); 
+            }
+        }
+        dp[v] = dp[v] + (c-mx-1); 
+        dpv[v].key = a[v]; 
+        dpv[v].s.clear(); 
+        for(auto x : can) dpv[v].s.insert(x); 
+    }
+    dbg(v)
+}
+
+void solve(){
+    int n; cin>>n;
+    rrep(i,n) cin>>a[i];
+    rep(i,n-1){
+        int a,b;cin>>a>>b; adj[a].pb(b); adj[b].pb(a); 
+    }
+    rrep(i,n) dpv[i].key = 0; 
+    dfs(1,1); 
+    int ans = dp[1]+1; 
+    if(dpv[1].s.find(dpv[1].key)!=dpv[1].s.end()) ans--;
+    cout << ans; 
 }
 
 signed main() {

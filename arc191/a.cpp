@@ -63,35 +63,102 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
-using namespace atcoder; 
-using mint = modint1000000007; 
+const int N = 200010; 
+vector<int> adj[N]; 
+int n; 
 
-const int N = 520; 
-mint ed[N][N]; 
+int deg[N]; 
 
-void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
+int dp[2][N]; 
+int cnt[N]; 
+int par[N]; 
+
+int dd[N]; 
+int ddd[N]; 
+
+int m,s,t;
+bool vis[N]; 
+
+void get_par(int s, int dd[]){
+    priority_queue<pair<int,int>,vector<pair<int,int>>,greater<>> pq; 
+    rrep(i,n) dd[i] = 1e9; 
+    pq.push({0,s}); 
+    par[s] = s; 
+    dd[s] = 0; 
+    memset(vis,0,sizeof(vis)); 
+    while(!pq.empty()){
+        auto [di,i] = pq.top(); pq.pop(); 
+        if(vis[i]) continue; 
+        vis[i] = 1; 
+        for(auto ne : adj[i]) {
+            if(dd[ne]>di+1){
+                par[ne] = i; 
+                dd[ne] = di+1; 
+                pq.push({di+1,ne}); 
+            }
         }
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
+}
+
+void solve(){
+    cin>>n>>m>>s>>t; 
+    rep(i,m){
+        int a,b; cin>>a>>b; adj[a].pb(b); adj[b].pb(a); 
+        deg[a]++; deg[b]++; 
     }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
+    rep(j,2) rrep(i,n) dp[j][i] = 1e9; 
+    dp[0][s] = 0; 
+
+    get_par(s,dd); 
+    int x = par[t]; 
+    vector<int> pp; 
+    while(x!=s) {
+        pp.pb(x); x = par[x]; 
     }
-    cout << ans.val();
-    
+    pp.pb(s); pp.pb(t); 
+    bool wwww = false; 
+    for(auto x : pp) if(deg[x]>=3) wwww=true; 
+    if(wwww==false){
+        if(deg[s]==1&&deg[t]==1) {
+            cout << -1; return; 
+        }
+        get_par(t,ddd); 
+        int ans = 1e9; 
+        rrep(i,n){
+            if(deg[i]>=3){
+                ans = min(ans,dd[i]+ddd[i]+2); 
+            }
+        }
+        if(ans==1e9){
+            cout << -1; 
+        }
+        else cout << ans; 
+        return;
+    }
+
+    priority_queue<pair<int,int>,vector<pair<int,int>>,greater<>> pq; 
+    pq.push({0,s}); 
+    while(!pq.empty()){
+        auto [di,i] = pq.top(); pq.pop(); 
+        if(cnt[i]==2) continue;  
+        dp[cnt[i]][i] = di; 
+        cnt[i]++; 
+        for(auto ne : adj[i]) {
+            if(cnt[ne]<2){
+                pq.push({di+1,ne}); 
+            }
+        }
+    }
+    int a = dp[0][t], b = dp[1][t]; 
+    dbg(a,b)
+    int ans = min(a+b,a*2+2); 
+    get_par(t,ddd);  
+    rrep(i,n){
+        if(deg[i]>=3){
+            ans = min(ans,dd[i]+ddd[i]+2); 
+        }
+    }
+    cout << ans; 
 }
 
 signed main() {

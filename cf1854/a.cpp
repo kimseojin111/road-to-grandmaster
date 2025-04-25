@@ -64,57 +64,74 @@ long long inv(long long a, long long b){
 }
 
 
-ll a[30]; 
-vector<pair<int,int>> ans; 
-
-void sol(int i, int j){
-    if(i==j) return; 
-    if(a[i]<=0){
-        sol(i+1,j); 
-        if(a[i]<=a[i+1]) return; 
-        else {
-            ans.pb({i,i+1}); 
-            a[i]+=a[i+1]; return; 
-        }
-    }
-    if(a[j]>=0){
-        sol(i,j-1); 
-        if(a[j]>=a[j-1]) return; 
-        else {
-            ans.pb({j,j-1}); 
-            a[j]+=a[j-1]; return; 
-        }
-    }
-    if(a[i]+a[j]>=0){
-        ans.pb({j,i}); 
-        a[j]+=a[i]; 
-        sol(i,j-1); 
-        if(a[j]>=a[j-1]) return; 
-        else {
-            ans.pb({j,j-1});
-            a[j]+=a[j-1]; return;  
-        }
-    }
-    else {
-        ans.pb({i,j}); 
-        a[i]+=a[j]; 
-        sol(i+1,j); 
-        if(a[i]<=a[i+1]) return; 
-        ans.pb({i,i+1});
-        a[i]+=a[i+1]; return; 
-    }
-}
+const int N = 30;
+ll a[N]; 
 
 void solve(){
     int n; cin>>n; 
     rrep(i,n) cin>>a[i]; 
-    ans.clear(); 
-    sol(1,n); 
-    rrep(i,n){
-        if(i+1<=n) assert(a[i]<=a[i+1]);
+    int p=0,q=0; 
+    // p -> 모두 양수로, 먼저 음수 개수  q-> 모두 음수로 , 먼저 양수 개수 
+    auto print = [&](auto v){
+        cout << v.size() << "\n"; 
+        for(auto [a,b]:v) cout << a << " " << b << "\n"; 
+        return; 
+    }; 
+    rrep(i,n) if(a[i]>0) q++; else if(a[i]<0) p++; 
+    if(p==0){
+        // 모두 양수 
+        vector<pair<int,int>> ans; 
+        for(int i=2;i<=n;i++) ans.pb({i,i-1}); 
+        print(ans); 
+        return; 
     }
-    cout << ans.size() << "\n";
-    for(auto [p,q]:ans) cout << p << " " << q << "\n";
+    if(q==0){
+        // 모두 음수 
+        vector<pair<int,int>> ans; 
+        for(int i=n-1;i>0;i--) ans.pb({i,i+1}); 
+        print(ans); 
+        return; 
+    }
+    int pm = *max_element(a+1,a+n+1), mm = *min_element(a+1,a+n+1); 
+    mm = -mm; 
+    dbg(pm,mm)
+    int k = 0; 
+    while((1<<k)*pm < mm) k++; 
+    p+=k; 
+    k = 0; 
+    while((1<<k)*mm < pm) k++; 
+    q += k; 
+    if(p<=12){
+        vector<pair<int,int>> ans; 
+        int pi = max_element(a+1,a+n+1)-a; 
+        int k = 0; 
+        while(pm < mm){
+            ans.pb({pi,pi}); 
+            pm += pm; 
+        }
+        dbg(pm)
+        rrep(i,n) if(a[i]<0) {
+            ans.pb({i,pi}); pm+=pm; 
+        }
+        for(int i=2;i<=n;i++) ans.pb({i,i-1}); 
+        print(ans); 
+        return; 
+    }
+    if(q<=12){
+        vector<pair<int,int>> ans; 
+        int qi = min_element(a+1,a+n+1)-a; 
+        int k = 0; 
+        while(mm < pm){
+            ans.pb({qi,qi}); 
+            mm += mm; 
+        }
+        rrep(i,n) if(a[i]>0) {
+            ans.pb({i,qi});  
+        }
+        for(int i=n-1;i>0;i--) ans.pb({i,i+1}); 
+        print(ans); 
+        return; 
+    }
 }
 
 signed main() {

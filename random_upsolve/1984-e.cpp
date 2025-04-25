@@ -63,42 +63,79 @@ long long inv(long long a, long long b){
     return 1<a ? b - inv(b%a,a)*b/a : 1;
 }
 
-#include <atcoder/modint>
-using namespace atcoder; 
-using mint = modint1000000007; 
+// initial degree 1 -> go for it 
+// other leaves must not be directly connected 
+// so the leaf must be subset of independent set 
+// and every independent set can be constructed as leaves 
+// jsut choosing non leaf as root recursively 
+// go for dp 
 
-const int N = 520; 
-mint ed[N][N]; 
+// dp[v][0][1] maximum independent set of v's subtree if v is chosen
+// dp[v][0][0] maximum independent set of v's subtree if v is not chosen. 
+// dp[v][1][1] maximum independent set of (v's subtree)^c if parent is chosen
+// dp[v][1][0] maximum independent set of (v's subtree)^c if parent is not chosen. 
+
+const int N = 200010;
+int dp[N][2][2]; 
+vector<int> adj[N]; 
+int par[N]; 
+void init(int n){
+    rrep(i,n) adj[i].clear(); 
+}
+
+void dfs(int v, int p){
+    int c = 0; 
+    par[v] = p; 
+    for(auto ne : adj[v]) if(ne!=p){
+        dfs(ne,v); c++; 
+    }
+    if(c==0){
+        dp[v][0][0] = 0; 
+        dp[v][0][1] = 1; return; 
+    }
+    dp[v][0][1] = 1; 
+    dp[v][0][0] = 0; 
+    for(auto ne : adj[v]) if(ne!=p) {
+        dp[v][0][1] += dp[ne][0][0]; 
+        dp[v][0][0] += max(dp[ne][0][0],dp[ne][0][1]); 
+    }
+    return; 
+}
+
+void dfss(int v, int p){ 
+    if(v==p){
+        dp[v][1][0] = dp[v][1][1] = 0; 
+    }
+    else {
+        dp[v][1][0] = dp[p][0][0] - max(dp[v][0][0],dp[v][0][1]) + max(dp[p][1][0],dp[p][1][1]); 
+        dp[v][1][1] = dp[p][0][1] - dp[v][0][0] + dp[p][1][0]; 
+    }
+    for(auto ne : adj[v])if(ne!=p){
+        dfss(ne,v); 
+    }
+}
 
 void solve(){
-    ed[0][0] = 0; 
-    for(int j=1;j<N;j++) ed[0][j] = j; 
-    for(int i=1;i<520;i++){
-        ed[i][i] = i; 
-        for(int j=i+1;j<520;j++){
-            ed[i][j] = (ed[i-1][j]+ed[i][j-1])/2 + 1; 
-        }
+    int n; cin>>n; 
+    init(n); 
+    for(int i=0;i<n-1;i++){
+        int a,b;cin>>a>>b; adj[a].pb(b); adj[b].pb(a); 
     }
-    int n,m; cin>>n>>m; 
-    vector<int> s(n); 
-    rep(i,n) {
-        cin>>s[i]; s[i] = m+1-s[i]; 
+    dfs(1,1); 
+    dfss(1,1); 
+    int ans  = 0 ;
+    rrep(i,n){
+        int t = dp[i][0][0] + max(dp[i][1][0],dp[i][1][1]) + (adj[i].size()==1); 
+        ans = max(ans,t); 
     }
-    reverse(all(s)); 
-    mint ans = 0; rep(i,n) ans += s[i]; 
-    for(int i=0;i<s.size()-1;i++){
-        mint tmp = s[i]+s[i+1]-ed[s[i]][s[i+1]]; 
-        ans -= tmp; 
-    }
-    cout << ans.val();
-    
+    cout << ans << "\n";
 }
 
 signed main() {
    cin.tie(0)->ios::sync_with_stdio(0);
    cout.tie(nullptr);
    int t = 1;
-   //cin >> t;
+   cin >> t;
    while(t--) solve(); 
    return 0;
 }
