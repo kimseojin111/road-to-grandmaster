@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/root/codeforces/road-to-grandmaster/cf1028/a.cpp","tests":[{"id":1752666944304,"input":"3\n3\n12 20 30\n6\n1 9 1 9 8 1\n3\n6 14 15\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/codeforces/road-to-grandmaster/cf1028/a.cpp","group":"local","local":true}

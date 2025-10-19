@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/root/codeforces/road-to-grandmaster/swerc2023/a.cpp","tests":[{"id":1753182640441,"input":"4\nC1 R2 E4 R1\n","output":""},{"id":1753182910765,"input":"5\nS2 W4 E1 R5 C1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/codeforces/road-to-grandmaster/swerc2023/a.cpp","group":"local","local":true}
