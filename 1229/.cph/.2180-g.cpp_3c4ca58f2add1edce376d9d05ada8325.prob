@@ -1,0 +1,1 @@
+{"name":"Local: 2180-g","url":"/root/hibikara/1229/2180-g.cpp","tests":[{"id":1767109553914,"input":"2\n5\n2 1\n2 2\n3\n1\n3\n10\n2 33532\n1\n2 938556\n2 559503\n2 353115\n3\n1\n3\n1\n3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1229/2180-g.cpp","group":"local","local":true}

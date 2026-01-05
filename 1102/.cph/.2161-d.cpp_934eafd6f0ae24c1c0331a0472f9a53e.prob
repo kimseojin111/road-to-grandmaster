@@ -1,0 +1,1 @@
+{"name":"Local: 2161-d","url":"/root/hibikara/1102/2161-d.cpp","tests":[{"id":1762101071974,"input":"6\n1\n1\n5\n1 2 3 4 5\n5\n5 4 3 2 1\n5\n5 5 5 4 4\n7\n1 7 1 2 5 7 1\n6\n1 2 5 6 5 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1102/2161-d.cpp","group":"local","local":true}

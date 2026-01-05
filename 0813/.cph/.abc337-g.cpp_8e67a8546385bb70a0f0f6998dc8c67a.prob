@@ -1,0 +1,1 @@
+{"name":"Local: abc337-g","url":"/root/hibikara/0813/abc337-g.cpp","tests":[{"id":1755074509276,"input":"7\n1 2\n2 3\n2 4\n4 5\n4 6\n6 7\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0813/abc337-g.cpp","group":"local","local":true}

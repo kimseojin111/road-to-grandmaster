@@ -1,0 +1,1 @@
+{"name":"Local: 1896-d","url":"/root/hibikara/0807/1896-d.cpp","tests":[{"id":1754566820993,"input":"2\n5\n3 2 4 1 5\n6\n2 1 4 6 5 3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0807/1896-d.cpp","group":"local","local":true}

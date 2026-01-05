@@ -1,0 +1,1 @@
+{"name":"Local: arc189-d","url":"/root/hibikara/0811/arc189-d.cpp","tests":[{"id":1754928871851,"input":"7\n1 1 1 1 1 1 1 \n","output":""},{"id":1754929566585,"input":"5\n1 8 9 2 1\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0811/arc189-d.cpp","group":"local","local":true}

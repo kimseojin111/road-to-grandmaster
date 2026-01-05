@@ -1,0 +1,1 @@
+{"name":"Local: bb","url":"/root/hibikara/1116/bb.cpp","tests":[{"id":1763307513409,"input":"5\n3\n1 2 3\n3\n1 1 1\n3\n1 2 2\n10\n1 1 1 1 2 2 2 3 3 4\n10\n1 1 1 2 2 2 3 3 3 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1116/bb.cpp","group":"local","local":true}

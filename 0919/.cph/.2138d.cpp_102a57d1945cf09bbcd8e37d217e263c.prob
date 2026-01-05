@@ -1,0 +1,1 @@
+{"name":"Local: 2138d","url":"/root/hibikara/0919/2138d.cpp","tests":[{"id":1758258426749,"input":"1\n3 1000000000 3\n1 10 253746392\n3 100000000\n3 1000000000\n3 500000000\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0919/2138d.cpp","group":"local","local":true}

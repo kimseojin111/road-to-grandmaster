@@ -1,0 +1,1 @@
+{"name":"Local: arc168-c","url":"/root/hibikara/0815/arc168-c.cpp","tests":[{"id":1755267178512,"input":"30 10\nCACCABAABBABABBCBBCAAACAAACCCA\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0815/arc168-c.cpp","group":"local","local":true}

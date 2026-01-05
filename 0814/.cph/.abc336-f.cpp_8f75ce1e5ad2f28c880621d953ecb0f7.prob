@@ -1,0 +1,1 @@
+{"name":"Local: abc336-f","url":"/root/hibikara/0814/abc336-f.cpp","tests":[{"id":1755161845904,"input":"3 3\n9 4 3\n2 1 8\n7 6 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0814/abc336-f.cpp","group":"local","local":true}

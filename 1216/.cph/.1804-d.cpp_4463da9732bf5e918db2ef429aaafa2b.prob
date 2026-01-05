@@ -1,0 +1,1 @@
+{"name":"Local: 1804-d","url":"/root/hibikara/1216/1804-d.cpp","tests":[{"id":1765888850591,"input":"5 4\n0100\n1100\n0110\n1010\n1011\n","output":""},{"id":1765888865744,"input":"1 8\n01011100\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1216/1804-d.cpp","group":"local","local":true}

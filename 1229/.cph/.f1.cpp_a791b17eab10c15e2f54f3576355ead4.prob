@@ -1,0 +1,1 @@
+{"name":"Local: f1","url":"/root/hibikara/1229/f1.cpp","tests":[{"id":1767024851066,"input":"3 7\n2 1 1\n3 5\n3 6\n1 2\n3 6\n3 5\n2 1\n3 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1229/f1.cpp","group":"local","local":true}

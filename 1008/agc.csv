@@ -1,0 +1,425 @@
+contest_id,problem_id,title,difficulty,is_experimental,url
+agc010,agc010_a,A. Addition,-10000,False,https://atcoder.jp/contests/agc010/tasks/agc010_a
+agc025,agc025_a,A. Digits Sum,-598,False,https://atcoder.jp/contests/agc025/tasks/agc025_a
+agc030,agc030_a,A. Poisonous Cookies,-197,False,https://atcoder.jp/contests/agc030/tasks/agc030_a
+agc026,agc026_a,A. Colorful Slimes 2,-183,False,https://atcoder.jp/contests/agc026/tasks/agc026_a
+agc020,agc020_a,A. Move and Win,-78,False,https://atcoder.jp/contests/agc020/tasks/agc020_a
+agc054,agc054_a,A. Remove Substrings,-62,False,https://atcoder.jp/contests/agc054/tasks/agc054_a
+agc027,agc027_a,A. Candy Distribution Again,114,False,https://atcoder.jp/contests/agc027/tasks/agc027_a
+agc024,agc024_a,A. Fairness,144,False,https://atcoder.jp/contests/agc024/tasks/agc024_a
+agc002,agc002_a,A. Range Product,170,False,https://atcoder.jp/contests/agc002/tasks/agc002_a
+agc037,agc037_a,A. Dividing a String,232,False,https://atcoder.jp/contests/agc037/tasks/agc037_a
+agc041,agc041_a,A. Table Tennis Training,245,False,https://atcoder.jp/contests/agc041/tasks/agc041_a
+agc046,agc046_a,"A. Takahashikun, The Strider",246,False,https://atcoder.jp/contests/agc046/tasks/agc046_a
+agc014,agc014_a,A. Cookie Exchanges,279,False,https://atcoder.jp/contests/agc014/tasks/agc014_a
+agc021,agc021_a,A. Digit Sum 2,396,False,https://atcoder.jp/contests/agc021/tasks/agc021_a
+agc029,agc029_a,A. Irreversible operation,423,False,https://atcoder.jp/contests/agc029/tasks/agc029_a
+agc003,agc003_a,A. Wanna go back home,436,False,https://atcoder.jp/contests/agc003/tasks/agc003_a
+agc040,agc040_a,A. ><,443,False,https://atcoder.jp/contests/agc040/tasks/agc040_a
+agc012,agc012_a,A. AtCoder Group Contest,474,False,https://atcoder.jp/contests/agc012/tasks/agc012_a
+agc019,agc019_a,A. Ice Tea Store,509,False,https://atcoder.jp/contests/agc019/tasks/agc019_a
+agc006,agc006_a,A. Prefix and Suffix,516,False,https://atcoder.jp/contests/agc006/tasks/agc006_a
+agc039,agc039_a,A. Connection and Disconnection,517,False,https://atcoder.jp/contests/agc039/tasks/agc039_a
+agc004,agc004_a,A. Divide a Cuboid,558,False,https://atcoder.jp/contests/agc004/tasks/agc004_a
+agc013,agc013_a,A. Sorted Arrays,614,False,https://atcoder.jp/contests/agc013/tasks/agc013_a
+agc015,agc015_a,A. A+...+B Problem,620,False,https://atcoder.jp/contests/agc015/tasks/agc015_a
+agc035,agc035_a,A. XOR Circle,640,False,https://atcoder.jp/contests/agc035/tasks/agc035_a
+agc028,agc028_a,A. Two Abbreviations,645,False,https://atcoder.jp/contests/agc028/tasks/agc028_a
+agc034,agc034_a,A. Kenken Race,662,False,https://atcoder.jp/contests/agc034/tasks/agc034_a
+agc015,agc015_b,B. Evilator,665,False,https://atcoder.jp/contests/agc015/tasks/agc015_b
+agc022,agc022_a,A. Diverse Word,738,False,https://atcoder.jp/contests/agc022/tasks/agc022_a
+agc032,agc032_a,A. Limited Insertion,738,False,https://atcoder.jp/contests/agc032/tasks/agc032_a
+agc008,agc008_a,A. Simple Calculator,740,False,https://atcoder.jp/contests/agc008/tasks/agc008_a
+agc009,agc009_a,A. Multiple Array,759,False,https://atcoder.jp/contests/agc009/tasks/agc009_a
+agc052,agc052_a,A. Long Common Subsequence,779,False,https://atcoder.jp/contests/agc052/tasks/agc052_a
+agc007,agc007_a,A. Shik and Stone,792,False,https://atcoder.jp/contests/agc007/tasks/agc007_a
+agc017,agc017_a,A. Biscuits,815,False,https://atcoder.jp/contests/agc017/tasks/agc017_a
+agc011,agc011_a,A. Airport Bus,827,False,https://atcoder.jp/contests/agc011/tasks/agc011_a
+agc043,agc043_a,A. Range Flip Find Route,934,False,https://atcoder.jp/contests/agc043/tasks/agc043_a
+agc036,agc036_a,A. Triangle,939,False,https://atcoder.jp/contests/agc036/tasks/agc036_a
+agc018,agc018_a,A. Getting Difference,947,False,https://atcoder.jp/contests/agc018/tasks/agc018_a
+agc016,agc016_a,A. Shrinking,951,False,https://atcoder.jp/contests/agc016/tasks/agc016_a
+agc063,agc063_a,A. Mex Game,952,False,https://atcoder.jp/contests/agc063/tasks/agc063_a
+agc031,agc031_a,A. Colorful Subsequence,953,False,https://atcoder.jp/contests/agc031/tasks/agc031_a
+agc002,agc002_b,B. Box and Ball,981,False,https://atcoder.jp/contests/agc002/tasks/agc002_b
+agc038,agc038_a,A. 01 Matrix,989,False,https://atcoder.jp/contests/agc038/tasks/agc038_a
+agc064,agc064_a,A. i i's,996,False,https://atcoder.jp/contests/agc064/tasks/agc064_a
+agc011,agc011_b,B. Colorful Creatures,998,False,https://atcoder.jp/contests/agc011/tasks/agc011_b
+agc023,agc023_a,A. Zero-Sum Ranges,1038,False,https://atcoder.jp/contests/agc023/tasks/agc023_a
+agc005,agc005_a,A. STring,1054,False,https://atcoder.jp/contests/agc005/tasks/agc005_a
+agc062,agc062_a,A. Right Side Character ,1099,False,https://atcoder.jp/contests/agc062/tasks/agc062_a
+agc034,agc034_b,B. ABC,1101,False,https://atcoder.jp/contests/agc034/tasks/agc034_b
+agc058,agc058_a,A. Make it Zigzag,1134,False,https://atcoder.jp/contests/agc058/tasks/agc058_a
+agc033,agc033_a,A. Darker and Darker,1159,False,https://atcoder.jp/contests/agc033/tasks/agc033_a
+agc049,agc049_b,B. Flip Digits,1171,False,https://atcoder.jp/contests/agc049/tasks/agc049_b
+agc048,agc048_a,A. atcoder < S,1187,False,https://atcoder.jp/contests/agc048/tasks/agc048_a
+agc003,agc003_b,B. Simplified mahjong,1234,False,https://atcoder.jp/contests/agc003/tasks/agc003_b
+agc014,agc014_b,B. Unplanned Queries,1236,False,https://atcoder.jp/contests/agc014/tasks/agc014_b
+agc024,agc024_b,B. Backfront,1259,False,https://atcoder.jp/contests/agc024/tasks/agc024_b
+agc032,agc032_b,B. Balanced Neighbors,1259,False,https://atcoder.jp/contests/agc032/tasks/agc032_b
+agc024,agc024_c,C. Sequence Growing Easy,1279,False,https://atcoder.jp/contests/agc024/tasks/agc024_c
+agc056,agc056_a,A. Three Cells per Row and Column,1290,False,https://atcoder.jp/contests/agc056/tasks/agc056_a
+agc031,agc031_b,B. Reversi,1315,False,https://atcoder.jp/contests/agc031/tasks/agc031_b
+agc053,agc053_a,A. >< again,1339,False,https://atcoder.jp/contests/agc053/tasks/agc053_a
+agc060,agc060_a,A. No Majority,1345,False,https://atcoder.jp/contests/agc060/tasks/agc060_a
+agc055,agc055_a,A. ABC Identity,1348,False,https://atcoder.jp/contests/agc055/tasks/agc055_a
+agc019,agc019_b,B. Reverse and Compare,1357,False,https://atcoder.jp/contests/agc019/tasks/agc019_b
+agc033,agc033_b,B. LRUD Game,1384,False,https://atcoder.jp/contests/agc033/tasks/agc033_b
+agc057,agc057_a,A. Antichain of Integer Strings,1389,False,https://atcoder.jp/contests/agc057/tasks/agc057_a
+agc039,agc039_b,B. Graph Partition,1393,False,https://atcoder.jp/contests/agc039/tasks/agc039_b
+agc020,agc020_b,B. Ice Rink Game,1404,False,https://atcoder.jp/contests/agc020/tasks/agc020_b
+agc023,agc023_b,B. Find Symmetries,1434,False,https://atcoder.jp/contests/agc023/tasks/agc023_b
+agc041,agc041_b,B. Voting Judges,1486,False,https://atcoder.jp/contests/agc041/tasks/agc041_b
+agc051,agc051_a,A. Dodecagon,1495,False,https://atcoder.jp/contests/agc051/tasks/agc051_a
+agc003,agc003_c,C. BBuBBBlesort!,1541,False,https://atcoder.jp/contests/agc003/tasks/agc003_c
+agc029,agc029_b,B. Powers of two,1566,False,https://atcoder.jp/contests/agc029/tasks/agc029_b
+agc002,agc002_c,C. Knot Puzzle,1570,False,https://atcoder.jp/contests/agc002/tasks/agc002_c
+agc046,agc046_b,B. Extension,1588,False,https://atcoder.jp/contests/agc046/tasks/agc046_b
+agc047,agc047_a,A. Integer Product,1592,False,https://atcoder.jp/contests/agc047/tasks/agc047_a
+agc006,agc006_b,B. Median Pyramid Easy,1600,False,https://atcoder.jp/contests/agc006/tasks/agc006_b
+agc007,agc007_b,B. Construct Sequences,1611,False,https://atcoder.jp/contests/agc007/tasks/agc007_b
+agc038,agc038_b,B. Sorting a Segment,1615,False,https://atcoder.jp/contests/agc038/tasks/agc038_b
+agc018,agc018_b,B. Sports Festival,1624,False,https://atcoder.jp/contests/agc018/tasks/agc018_b
+agc016,agc016_b,B. Colorful Hats,1626,False,https://atcoder.jp/contests/agc016/tasks/agc016_b
+agc017,agc017_b,B. Moderate Differences,1627,False,https://atcoder.jp/contests/agc017/tasks/agc017_b
+agc061,agc061_a,A. Long Shuffle,1643,False,https://atcoder.jp/contests/agc061/tasks/agc061_a
+agc022,agc022_b,B. GCD Sequence,1645,False,https://atcoder.jp/contests/agc022/tasks/agc022_b
+agc063,agc063_b,"B. Insert 1, 2, 3, ...",1663,False,https://atcoder.jp/contests/agc063/tasks/agc063_b
+agc009,agc009_b,B. Tournament,1685,False,https://atcoder.jp/contests/agc009/tasks/agc009_b
+agc065,agc065_a,A. Shuffle and mod K,1701,False,https://atcoder.jp/contests/agc065/tasks/agc065_a
+agc054,agc054_b,B. Greedy Division,1710,False,https://atcoder.jp/contests/agc054/tasks/agc054_b
+agc026,agc026_b,B. rng_10s,1720,False,https://atcoder.jp/contests/agc026/tasks/agc026_b
+agc040,agc040_b,B. Two Contests,1722,False,https://atcoder.jp/contests/agc040/tasks/agc040_b
+agc025,agc025_b,B. RGB Coloring,1739,False,https://atcoder.jp/contests/agc025/tasks/agc025_b
+agc053,agc053_b,B. Taking the middle,1755,False,https://atcoder.jp/contests/agc053/tasks/agc053_b
+agc033,agc033_c,C. Removing Coins,1758,False,https://atcoder.jp/contests/agc033/tasks/agc033_c
+agc051,agc051_b,B. Bowling,1759,False,https://atcoder.jp/contests/agc051/tasks/agc051_b
+agc013,agc013_b,B. Hamiltonish Path,1763,False,https://atcoder.jp/contests/agc013/tasks/agc013_b
+agc036,agc036_b,B. Do Not Duplicate,1771,False,https://atcoder.jp/contests/agc036/tasks/agc036_b
+agc064,agc064_b,B. Red and Blue Spanning Tree,1787,False,https://atcoder.jp/contests/agc064/tasks/agc064_b
+agc068,agc068_b,B. 01 Graph Construction,1813,False,https://atcoder.jp/contests/agc068/tasks/agc068_b
+agc008,agc008_b,B. Contiguous Repainting,1822,False,https://atcoder.jp/contests/agc008/tasks/agc008_b
+agc005,agc005_b,B. Minimum Sum,1828,False,https://atcoder.jp/contests/agc005/tasks/agc005_b
+agc044,agc044_a,A. Pay to Win,1828,False,https://atcoder.jp/contests/agc044/tasks/agc044_a
+agc026,agc026_c,C. String Coloring,1836,False,https://atcoder.jp/contests/agc026/tasks/agc026_c
+agc014,agc014_c,C. Closed Rooms,1863,False,https://atcoder.jp/contests/agc014/tasks/agc014_c
+agc054,agc054_c,C. Roughly Sorted,1863,False,https://atcoder.jp/contests/agc054/tasks/agc054_c
+agc004,agc004_b,B. Colorful Slimes,1871,False,https://atcoder.jp/contests/agc004/tasks/agc004_b
+agc047,agc047_b,B. First Second,1871,False,https://atcoder.jp/contests/agc047/tasks/agc047_b
+agc037,agc037_c,C. Numbers on a Circle,1882,False,https://atcoder.jp/contests/agc037/tasks/agc037_c
+agc044,agc044_b,B. Joker,1883,False,https://atcoder.jp/contests/agc044/tasks/agc044_b
+agc059,agc059_b,B. Arrange Your Balls,1887,False,https://atcoder.jp/contests/agc059/tasks/agc059_b
+agc010,agc010_b,B. Boxes,1892,False,https://atcoder.jp/contests/agc010/tasks/agc010_b
+agc048,agc048_b,B. Bracket Score,1902,False,https://atcoder.jp/contests/agc048/tasks/agc048_b
+agc049,agc049_a,A. Erasing Vertices,1922,False,https://atcoder.jp/contests/agc049/tasks/agc049_a
+agc043,agc043_b,B. 123 Triangle,1945,False,https://atcoder.jp/contests/agc043/tasks/agc043_b
+agc057,agc057_b,B. 2A + x,1952,False,https://atcoder.jp/contests/agc057/tasks/agc057_b
+agc008,agc008_c,C. Tetromino Tiling,1953,False,https://atcoder.jp/contests/agc008/tasks/agc008_c
+agc059,agc059_a,A. My Last ABC Problem,1970,False,https://atcoder.jp/contests/agc059/tasks/agc059_a
+agc050,agc050_a,A. AtCoder Jumper,1973,False,https://atcoder.jp/contests/agc050/tasks/agc050_a
+agc005,agc005_c,C. Tree Restoring,1976,False,https://atcoder.jp/contests/agc005/tasks/agc005_c
+agc060,agc060_b,B. Unique XOR Path,1996,False,https://atcoder.jp/contests/agc060/tasks/agc060_b
+agc070,agc070_a,A. Multiples in the String,2006,False,https://atcoder.jp/contests/agc070/tasks/agc070_a
+agc016,agc016_c,C. +/- Rectangle,2017,False,https://atcoder.jp/contests/agc016/tasks/agc016_c
+agc029,agc029_d,D. Grid game,2033,False,https://atcoder.jp/contests/agc029/tasks/agc029_d
+agc035,agc035_b,B. Even Degrees,2039,False,https://atcoder.jp/contests/agc035/tasks/agc035_b
+agc012,agc012_b,B. Splatter Painting,2047,False,https://atcoder.jp/contests/agc012/tasks/agc012_b
+agc058,agc058_b,B. Adjacent Chmax,2053,False,https://atcoder.jp/contests/agc058/tasks/agc058_b
+agc025,agc025_c,C. Interval Game,2057,False,https://atcoder.jp/contests/agc025/tasks/agc025_c
+agc055,agc055_b,B. ABC Supremacy,2059,False,https://atcoder.jp/contests/agc055/tasks/agc055_b
+agc045,agc045_a,A. Xor Battle,2070,False,https://atcoder.jp/contests/agc045/tasks/agc045_a
+agc067,agc067_a,A. Big Clique Everywhere,2074,False,https://atcoder.jp/contests/agc067/tasks/agc067_a
+agc027,agc027_c,C. ABland Yard,2077,False,https://atcoder.jp/contests/agc027/tasks/agc027_c
+agc066,agc066_a,A. Adjacent Difference,2086,False,https://atcoder.jp/contests/agc066/tasks/agc066_a
+agc050,agc050_b,B. Three Coins,2091,False,https://atcoder.jp/contests/agc050/tasks/agc050_b
+agc071,agc071_a,A. XOR Cross Over,2102,False,https://atcoder.jp/contests/agc071/tasks/agc071_a
+agc029,agc029_c,C. Lexicographic constraints,2103,False,https://atcoder.jp/contests/agc029/tasks/agc029_c
+agc048,agc048_c,C. Penguin Skating,2120,False,https://atcoder.jp/contests/agc048/tasks/agc048_c
+agc021,agc021_b,B. Holes,2130,False,https://atcoder.jp/contests/agc021/tasks/agc021_b
+agc046,agc046_c,C. Shift,2130,False,https://atcoder.jp/contests/agc046/tasks/agc046_c
+agc017,agc017_d,D. Game on Tree,2156,False,https://atcoder.jp/contests/agc017/tasks/agc017_d
+agc066,agc066_b,B. Decreasing Digit Sums,2162,False,https://atcoder.jp/contests/agc066/tasks/agc066_b
+agc008,agc008_d,D. K-th K,2164,False,https://atcoder.jp/contests/agc008/tasks/agc008_d
+agc028,agc028_b,B. Removing Blocks,2172,False,https://atcoder.jp/contests/agc028/tasks/agc028_b
+agc022,agc022_c,C. Remainder Game,2176,False,https://atcoder.jp/contests/agc022/tasks/agc022_c
+agc049,agc049_c,C. Robots,2177,False,https://atcoder.jp/contests/agc049/tasks/agc049_c
+agc065,agc065_b,B. Erase and Insert,2193,False,https://atcoder.jp/contests/agc065/tasks/agc065_b
+agc037,agc037_b,B. RGB Balls,2202,False,https://atcoder.jp/contests/agc037/tasks/agc037_b
+agc031,agc031_c,C. Differ by 1 Bit,2217,False,https://atcoder.jp/contests/agc031/tasks/agc031_c
+agc073,agc073_a,A. Chords and Checkered,2219,False,https://atcoder.jp/contests/agc073/tasks/agc073_a
+agc041,agc041_c,C. Domino Quality,2220,False,https://atcoder.jp/contests/agc041/tasks/agc041_c
+agc015,agc015_c,C. Nuske vs Phantom Thnook,2241,False,https://atcoder.jp/contests/agc015/tasks/agc015_c
+agc020,agc020_c,C. Median Sum,2259,False,https://atcoder.jp/contests/agc020/tasks/agc020_c
+agc014,agc014_d,D. Black and White Tree,2266,False,https://atcoder.jp/contests/agc014/tasks/agc014_d
+agc032,agc032_c,C. Three Circuits,2284,False,https://atcoder.jp/contests/agc032/tasks/agc032_c
+agc021,agc021_d,D. Reversed LCS,2287,False,https://atcoder.jp/contests/agc021/tasks/agc021_d
+agc024,agc024_d,D. Isomorphism Freak,2307,False,https://atcoder.jp/contests/agc024/tasks/agc024_d
+agc062,agc062_c,C. Mex of Subset Sum,2320,False,https://atcoder.jp/contests/agc062/tasks/agc062_c
+agc038,agc038_c,C. LCMs,2327,False,https://atcoder.jp/contests/agc038/tasks/agc038_c
+agc035,agc035_c,C. Skolem XOR Tree,2332,False,https://atcoder.jp/contests/agc035/tasks/agc035_c
+agc030,agc030_b,B. Tree Burning,2342,False,https://atcoder.jp/contests/agc030/tasks/agc030_b
+agc004,agc004_d,D. Teleporter,2346,False,https://atcoder.jp/contests/agc004/tasks/agc004_d
+agc010,agc010_c,C. Cleaning,2346,False,https://atcoder.jp/contests/agc010/tasks/agc010_c
+agc011,agc011_c,C. Squared Graph,2355,False,https://atcoder.jp/contests/agc011/tasks/agc011_c
+agc036,agc036_c,C. GP 2,2357,False,https://atcoder.jp/contests/agc036/tasks/agc036_c
+agc004,agc004_c,C. AND Grid,2367,False,https://atcoder.jp/contests/agc004/tasks/agc004_c
+agc039,agc039_c,C. Division by Two with Something,2379,False,https://atcoder.jp/contests/agc039/tasks/agc039_c
+agc062,agc062_b,B. Split and Insert,2407,False,https://atcoder.jp/contests/agc062/tasks/agc062_b
+agc065,agc065_c,C. Avoid Half Sum,2414,False,https://atcoder.jp/contests/agc065/tasks/agc065_c
+agc009,agc009_c,C. Division into Two,2437,False,https://atcoder.jp/contests/agc009/tasks/agc009_c
+agc069,agc069_a,A. Schedule Optimization,2460,False,https://atcoder.jp/contests/agc069/tasks/agc069_a
+agc013,agc013_c,C. Ants on a Circle,2462,False,https://atcoder.jp/contests/agc013/tasks/agc013_c
+agc028,agc028_c,C. Min Cost Cycle,2463,False,https://atcoder.jp/contests/agc028/tasks/agc028_c
+agc052,agc052_b,B. Tree Edges XOR,2473,False,https://atcoder.jp/contests/agc052/tasks/agc052_b
+agc056,agc056_c,C. 01 Balanced,2481,False,https://atcoder.jp/contests/agc056/tasks/agc056_c
+agc019,agc019_c,C. Fountain Walk,2495,False,https://atcoder.jp/contests/agc019/tasks/agc019_c
+agc047,agc047_c,C. Product Modulo,2496,False,https://atcoder.jp/contests/agc047/tasks/agc047_c
+agc034,agc034_c,C. Tests,2497,False,https://atcoder.jp/contests/agc034/tasks/agc034_c
+agc063,agc063_c,C. Add Mod Operations,2500,False,https://atcoder.jp/contests/agc063/tasks/agc063_c
+agc002,agc002_d,D. Stamp Rally,2514,False,https://atcoder.jp/contests/agc002/tasks/agc002_d
+agc050,agc050_c,C. Block Game,2528,False,https://atcoder.jp/contests/agc050/tasks/agc050_c
+agc023,agc023_c,C. Painting Machines,2568,False,https://atcoder.jp/contests/agc023/tasks/agc023_c
+agc019,agc019_d,D. Shift and Flip,2601,False,https://atcoder.jp/contests/agc019/tasks/agc019_d
+agc032,agc032_d,D. Rotation Sort,2602,False,https://atcoder.jp/contests/agc032/tasks/agc032_d
+agc049,agc049_d,D. Convex Sequence,2602,False,https://atcoder.jp/contests/agc049/tasks/agc049_d
+agc003,agc003_d,D. Anticube,2608,False,https://atcoder.jp/contests/agc003/tasks/agc003_d
+agc018,agc018_c,C. Coins,2618,False,https://atcoder.jp/contests/agc018/tasks/agc018_c
+agc027,agc027_b,B. Garbage Collector,2631,False,https://atcoder.jp/contests/agc027/tasks/agc027_b
+agc034,agc034_e,E. Complete Compress,2637,False,https://atcoder.jp/contests/agc034/tasks/agc034_e
+agc015,agc015_d,D. A or...or B Problem,2655,False,https://atcoder.jp/contests/agc015/tasks/agc015_d
+agc037,agc037_e,E. Reversing and Concatenating,2667,False,https://atcoder.jp/contests/agc037/tasks/agc037_e
+agc050,agc050_d,D. Shopping,2674,False,https://atcoder.jp/contests/agc050/tasks/agc050_d
+agc060,agc060_c,C. Large Heap,2680,False,https://atcoder.jp/contests/agc060/tasks/agc060_c
+agc038,agc038_d,D. Unique Path,2682,False,https://atcoder.jp/contests/agc038/tasks/agc038_d
+agc037,agc037_d,D. Sorting a Grid,2689,False,https://atcoder.jp/contests/agc037/tasks/agc037_d
+agc061,agc061_c,C. First Come First Serve,2697,False,https://atcoder.jp/contests/agc061/tasks/agc061_c
+agc043,agc043_d,D. Merge Triplets,2708,False,https://atcoder.jp/contests/agc043/tasks/agc043_d
+agc030,agc030_d,D. Inversion Sum,2712,False,https://atcoder.jp/contests/agc030/tasks/agc030_d
+agc012,agc012_c,C. Tautonym Puzzle,2731,False,https://atcoder.jp/contests/agc012/tasks/agc012_c
+agc040,agc040_c,C. Neither AB nor BA,2740,False,https://atcoder.jp/contests/agc040/tasks/agc040_c
+agc026,agc026_d,D. Histogram Coloring,2746,False,https://atcoder.jp/contests/agc026/tasks/agc026_d
+agc007,agc007_d,D. Shik and Game,2755,False,https://atcoder.jp/contests/agc007/tasks/agc007_d
+agc018,agc018_d,D. Tree and Hamilton Path,2757,False,https://atcoder.jp/contests/agc018/tasks/agc018_d
+agc045,agc045_c,C. Range Set,2758,False,https://atcoder.jp/contests/agc045/tasks/agc045_c
+agc012,agc012_d,D. Colorful Balls,2760,False,https://atcoder.jp/contests/agc012/tasks/agc012_d
+agc071,agc071_c,C. Orientable as Desired,2774,False,https://atcoder.jp/contests/agc071/tasks/agc071_c
+agc072,agc072_a,A. Rhythm Game,2781,False,https://atcoder.jp/contests/agc072/tasks/agc072_a
+agc010,agc010_d,D. Decrementing,2795,False,https://atcoder.jp/contests/agc010/tasks/agc010_d
+agc055,agc055_c,C. Weird LIS,2803,False,https://atcoder.jp/contests/agc055/tasks/agc055_c
+agc051,agc051_d,D. C4,2807,False,https://atcoder.jp/contests/agc051/tasks/agc051_d
+agc064,agc064_d,D. Red and Blue Chips,2808,False,https://atcoder.jp/contests/agc064/tasks/agc064_d
+agc067,agc067_c,C. Divisibility Homomorphism,2829,False,https://atcoder.jp/contests/agc067/tasks/agc067_c
+agc071,agc071_b,B. Maximum Bracket Subsequence,2842,False,https://atcoder.jp/contests/agc071/tasks/agc071_b
+agc069,agc069_b,B. Pair Guessing,2859,False,https://atcoder.jp/contests/agc069/tasks/agc069_b
+agc025,agc025_d,D. Choosing Points,2868,False,https://atcoder.jp/contests/agc025/tasks/agc025_d
+agc043,agc043_c,C. Giant Graph,2872,False,https://atcoder.jp/contests/agc043/tasks/agc043_c
+agc045,agc045_b,B. 01 Unbalanced,2873,False,https://atcoder.jp/contests/agc045/tasks/agc045_b
+agc053,agc053_c,C. Random Card Game,2878,False,https://atcoder.jp/contests/agc053/tasks/agc053_c
+agc021,agc021_c,C. Tiling,2886,False,https://atcoder.jp/contests/agc021/tasks/agc021_c
+agc002,agc002_e,E. Candy Piles,2889,False,https://atcoder.jp/contests/agc002/tasks/agc002_e
+agc044,agc044_c,C. Strange Dance,2889,False,https://atcoder.jp/contests/agc044/tasks/agc044_c
+agc010,agc010_f,F. Tree Game,2897,False,https://atcoder.jp/contests/agc010/tasks/agc010_f
+agc035,agc035_d,D. Add and Remove,2902,False,https://atcoder.jp/contests/agc035/tasks/agc035_d
+agc059,agc059_c,C. Guessing Permutation for as Long as Possible,2905,False,https://atcoder.jp/contests/agc059/tasks/agc059_c
+agc016,agc016_d,D. XOR Replace,2910,False,https://atcoder.jp/contests/agc016/tasks/agc016_d
+agc047,agc047_d,D. Twin Binary Trees,2910,False,https://atcoder.jp/contests/agc047/tasks/agc047_d
+agc046,agc046_d,D. Secret Passage,2911,False,https://atcoder.jp/contests/agc046/tasks/agc046_d
+agc051,agc051_c,C. Flipper,2928,False,https://atcoder.jp/contests/agc051/tasks/agc051_c
+agc011,agc011_d,D. Half Reflector,2931,False,https://atcoder.jp/contests/agc011/tasks/agc011_d
+agc064,agc064_c,C. Erase and Divide Game,2932,False,https://atcoder.jp/contests/agc064/tasks/agc064_c
+agc052,agc052_c,C. Nondivisible Prefix Sums,2936,False,https://atcoder.jp/contests/agc052/tasks/agc052_c
+agc005,agc005_d,D. ~K Perm Counting,2943,False,https://atcoder.jp/contests/agc005/tasks/agc005_d
+agc020,agc020_e,E. Encoding Subsets,2944,False,https://atcoder.jp/contests/agc020/tasks/agc020_e
+agc068,agc068_a,A. Circular Distance,2948,False,https://atcoder.jp/contests/agc068/tasks/agc068_a
+agc066,agc066_e,E. Sliding Puzzle On Tree,2950,False,https://atcoder.jp/contests/agc066/tasks/agc066_e
+agc022,agc022_e,E. Median Replace,2955,False,https://atcoder.jp/contests/agc022/tasks/agc022_e
+agc033,agc033_d,D. Complexity,2958,False,https://atcoder.jp/contests/agc033/tasks/agc033_d
+agc031,agc031_d,D. A Sequence of Permutations,2975,False,https://atcoder.jp/contests/agc031/tasks/agc031_d
+agc047,agc047_e,E. Product Simulation,2979,False,https://atcoder.jp/contests/agc047/tasks/agc047_e
+agc003,agc003_e,E. Sequential operations on Sequence,2983,False,https://atcoder.jp/contests/agc003/tasks/agc003_e
+agc070,agc070_c,C. No Streak,2983,False,https://atcoder.jp/contests/agc070/tasks/agc070_c
+agc027,agc027_d,D. Modulo Matrix,2984,False,https://atcoder.jp/contests/agc027/tasks/agc027_d
+agc072,agc072_c,C. Human Exercise,2984,False,https://atcoder.jp/contests/agc072/tasks/agc072_c
+agc058,agc058_c,C. Planar Tree,2991,False,https://atcoder.jp/contests/agc058/tasks/agc058_c
+agc006,agc006_c,C. Rabbit Exercise,2996,False,https://atcoder.jp/contests/agc006/tasks/agc006_c
+agc024,agc024_e,E. Sequence Growing Hard,3001,False,https://atcoder.jp/contests/agc024/tasks/agc024_e
+agc026,agc026_e,E. Synchronized Subsequence,3016,False,https://atcoder.jp/contests/agc026/tasks/agc026_e
+agc016,agc016_e,E. Poor Turkeys,3029,False,https://atcoder.jp/contests/agc016/tasks/agc016_e
+agc066,agc066_c,C. Delete AAB or BAA,3036,False,https://atcoder.jp/contests/agc066/tasks/agc066_c
+agc048,agc048_d,D. Pocky Game,3046,False,https://atcoder.jp/contests/agc048/tasks/agc048_d
+agc006,agc006_d,D. Median Pyramid Hard,3054,False,https://atcoder.jp/contests/agc006/tasks/agc006_d
+agc020,agc020_d,D. Min Max Repetition,3062,False,https://atcoder.jp/contests/agc020/tasks/agc020_d
+agc029,agc029_e,E. Wandering TKHS,3088,False,https://atcoder.jp/contests/agc029/tasks/agc029_e
+agc013,agc013_d,D. Piling Up,3089,False,https://atcoder.jp/contests/agc013/tasks/agc013_d
+agc041,agc041_d,D. Problem Scores,3096,False,https://atcoder.jp/contests/agc041/tasks/agc041_d
+agc073,agc073_b,B. Cyclic Jump,3096,False,https://atcoder.jp/contests/agc073/tasks/agc073_b
+agc006,agc006_e,E. Rotate 3x3,3101,False,https://atcoder.jp/contests/agc006/tasks/agc006_e
+agc033,agc033_e,E. Go around a Circle,3103,False,https://atcoder.jp/contests/agc033/tasks/agc033_e
+agc065,agc065_d,D. Not Intersect,3117,False,https://atcoder.jp/contests/agc065/tasks/agc065_d
+agc039,agc039_d,D. Incenters,3118,False,https://atcoder.jp/contests/agc039/tasks/agc039_d
+agc017,agc017_c,C. Snuke and Spells,3133,False,https://atcoder.jp/contests/agc017/tasks/agc017_c
+agc023,agc023_f,F. 01 on Tree,3148,False,https://atcoder.jp/contests/agc023/tasks/agc023_f
+agc072,agc072_b,B. AGC Language,3148,False,https://atcoder.jp/contests/agc072/tasks/agc072_b
+agc017,agc017_e,E. Jigsaw,3158,False,https://atcoder.jp/contests/agc017/tasks/agc017_e
+agc058,agc058_d,D. Yet Another ABC String,3159,False,https://atcoder.jp/contests/agc058/tasks/agc058_d
+agc044,agc044_d,D. Guess the Password,3165,False,https://atcoder.jp/contests/agc044/tasks/agc044_d
+agc023,agc023_d,D. Go Home,3173,False,https://atcoder.jp/contests/agc023/tasks/agc023_d
+agc068,agc068_c,C. Ball Redistribution,3182,False,https://atcoder.jp/contests/agc068/tasks/agc068_c
+agc073,agc073_c,C. Product of Max of Sum of Subtree,3202,False,https://atcoder.jp/contests/agc073/tasks/agc073_c
+agc004,agc004_e,E. Salvage Robots,3205,False,https://atcoder.jp/contests/agc004/tasks/agc004_e
+agc030,agc030_c,C. Coloring Torus,3207,False,https://atcoder.jp/contests/agc030/tasks/agc030_c
+agc070,agc070_b,B. Odd Namori,3217,False,https://atcoder.jp/contests/agc070/tasks/agc070_b
+agc062,agc062_d,D. Walk Around Neighborhood,3274,False,https://atcoder.jp/contests/agc062/tasks/agc062_d
+agc005,agc005_e,E. Sugigma: The Showdown,3276,False,https://atcoder.jp/contests/agc005/tasks/agc005_e
+agc038,agc038_f,F. Two Permutations,3283,False,https://atcoder.jp/contests/agc038/tasks/agc038_f
+agc052,agc052_d,D. Equal LIS,3304,False,https://atcoder.jp/contests/agc052/tasks/agc052_d
+agc057,agc057_d,D. Sum Avoidance,3307,False,https://atcoder.jp/contests/agc057/tasks/agc057_d
+agc014,agc014_e,E. Blue and Red Tree,3312,False,https://atcoder.jp/contests/agc014/tasks/agc014_e
+agc011,agc011_e,E. Increasing Numbers,3315,False,https://atcoder.jp/contests/agc011/tasks/agc011_e
+agc059,agc059_d,D. Distinct Elements on Subsegments,3319,False,https://atcoder.jp/contests/agc059/tasks/agc059_d
+agc036,agc036_d,D. Negative Cycle,3326,False,https://atcoder.jp/contests/agc036/tasks/agc036_d
+agc056,agc056_b,B. Range Argmax,3339,False,https://atcoder.jp/contests/agc056/tasks/agc056_b
+agc056,agc056_d,D. Subset Sum Game,3339,False,https://atcoder.jp/contests/agc056/tasks/agc056_d
+agc003,agc003_f,F. Fraction of Fractal,3344,False,https://atcoder.jp/contests/agc003/tasks/agc003_f
+agc067,agc067_d,D. Unique Matching,3345,False,https://atcoder.jp/contests/agc067/tasks/agc067_d
+agc069,agc069_d,D. Tree and Intervals,3346,False,https://atcoder.jp/contests/agc069/tasks/agc069_d
+agc057,agc057_c,C. Increment or Xor,3366,False,https://atcoder.jp/contests/agc057/tasks/agc057_c
+agc061,agc061_b,B. Summation By Construction,3371,False,https://atcoder.jp/contests/agc061/tasks/agc061_b
+agc007,agc007_c,C. Pushing Balls,3379,False,https://atcoder.jp/contests/agc007/tasks/agc007_c
+agc068,agc068_e,E. Sort and Match,3392,False,https://atcoder.jp/contests/agc068/tasks/agc068_e
+agc060,agc060_d,D. Same Descent Set,3394,False,https://atcoder.jp/contests/agc060/tasks/agc060_d
+agc002,agc002_f,F. Leftmost Ball,3399,False,https://atcoder.jp/contests/agc002/tasks/agc002_f
+agc032,agc032_e,E. Modulo Pairing,3402,False,https://atcoder.jp/contests/agc032/tasks/agc032_e
+agc009,agc009_d,D. Uninity,3404,False,https://atcoder.jp/contests/agc009/tasks/agc009_d
+agc017,agc017_f,F. Zigzag,3417,False,https://atcoder.jp/contests/agc017/tasks/agc017_f
+agc054,agc054_d,D. (ox),3426,False,https://atcoder.jp/contests/agc054/tasks/agc054_d
+agc009,agc009_e,E. Eternal Average,3428,False,https://atcoder.jp/contests/agc009/tasks/agc009_e
+agc039,agc039_e,E. Pairing Points,3430,False,https://atcoder.jp/contests/agc039/tasks/agc039_e
+agc005,agc005_f,F. Many Easy Problems,3440,False,https://atcoder.jp/contests/agc005/tasks/agc005_f
+agc040,agc040_d,D. Balance Beam,3452,False,https://atcoder.jp/contests/agc040/tasks/agc040_d
+agc060,agc060_e,E. Number of Cycles,3452,False,https://atcoder.jp/contests/agc060/tasks/agc060_e
+agc013,agc013_e,E. Placing Squares,3455,False,https://atcoder.jp/contests/agc013/tasks/agc013_e
+agc052,agc052_e,E. 3 Letters,3457,False,https://atcoder.jp/contests/agc052/tasks/agc052_e
+agc028,agc028_f,F. Reachable Cells,3462,False,https://atcoder.jp/contests/agc028/tasks/agc028_f
+agc030,agc030_f,F. Permutation and Minimum,3474,False,https://atcoder.jp/contests/agc030/tasks/agc030_f
+agc012,agc012_e,E. Camel and Oases,3490,False,https://atcoder.jp/contests/agc012/tasks/agc012_e
+agc028,agc028_d,D. Chords,3491,False,https://atcoder.jp/contests/agc028/tasks/agc028_d
+agc049,agc049_e,E. Increment Decrement,3496,False,https://atcoder.jp/contests/agc049/tasks/agc049_e
+agc029,agc029_f,F. Construction of a tree,3497,False,https://atcoder.jp/contests/agc029/tasks/agc029_f
+agc054,agc054_e,E. ZigZag Break,3499,False,https://atcoder.jp/contests/agc054/tasks/agc054_e
+agc041,agc041_e,E. Balancing Network,3502,False,https://atcoder.jp/contests/agc041/tasks/agc041_e
+agc043,agc043_e,E. Topology,3505,False,https://atcoder.jp/contests/agc043/tasks/agc043_e
+agc055,agc055_d,D. ABC Ultimatum,3506,False,https://atcoder.jp/contests/agc055/tasks/agc055_d
+agc006,agc006_f,F. Blackout,3530,False,https://atcoder.jp/contests/agc006/tasks/agc006_f
+agc066,agc066_d,D. A Independent Set,3531,False,https://atcoder.jp/contests/agc066/tasks/agc066_d
+agc024,agc024_f,F. Simple Subsequence Problem,3544,False,https://atcoder.jp/contests/agc024/tasks/agc024_f
+agc027,agc027_f,F. Grafting,3544,False,https://atcoder.jp/contests/agc027/tasks/agc027_f
+agc008,agc008_e,E. Next or Nextnext,3559,False,https://atcoder.jp/contests/agc008/tasks/agc008_e
+agc068,agc068_d,D. Sum of Hash of Lexmin,3559,False,https://atcoder.jp/contests/agc068/tasks/agc068_d
+agc015,agc015_e,E. Mr.Aoki Incubator,3571,False,https://atcoder.jp/contests/agc015/tasks/agc015_e
+agc025,agc025_e,E. Walking on a Tree,3584,False,https://atcoder.jp/contests/agc025/tasks/agc025_e
+agc033,agc033_f,F. Adding Edges,3591,False,https://atcoder.jp/contests/agc033/tasks/agc033_f
+agc019,agc019_e,E. Shuffle and Swap,3597,False,https://atcoder.jp/contests/agc019/tasks/agc019_e
+agc044,agc044_e,E. Random Pawn,3599,False,https://atcoder.jp/contests/agc044/tasks/agc044_e
+agc022,agc022_f,F. Checkers,3606,False,https://atcoder.jp/contests/agc022/tasks/agc022_f
+agc063,agc063_d,D. Many CRT,3609,False,https://atcoder.jp/contests/agc063/tasks/agc063_d
+agc045,agc045_d,D. Lamps and Buttons,3625,False,https://atcoder.jp/contests/agc045/tasks/agc045_d
+agc061,agc061_d,D. Almost Multiplication Table,3632,False,https://atcoder.jp/contests/agc061/tasks/agc061_d
+agc027,agc027_e,E. ABBreviate,3634,False,https://atcoder.jp/contests/agc027/tasks/agc027_e
+agc034,agc034_f,F. RNG and XOR,3634,False,https://atcoder.jp/contests/agc034/tasks/agc034_f
+agc007,agc007_f,F. Shik and Copying String,3642,False,https://atcoder.jp/contests/agc007/tasks/agc007_f
+agc023,agc023_e,E. Inversions,3653,False,https://atcoder.jp/contests/agc023/tasks/agc023_e
+agc034,agc034_d,D. Manhattan Max Matching,3665,False,https://atcoder.jp/contests/agc034/tasks/agc034_d
+agc031,agc031_e,E. Snuke the Phantom Thief,3689,False,https://atcoder.jp/contests/agc031/tasks/agc031_e
+agc040,agc040_e,E. Prefix Suffix Addition,3690,False,https://atcoder.jp/contests/agc040/tasks/agc040_e
+agc063,agc063_e,E. Child to Parent,3700,False,https://atcoder.jp/contests/agc063/tasks/agc063_e
+agc067,agc067_b,B. Modifications,3701,False,https://atcoder.jp/contests/agc067/tasks/agc067_b
+agc026,agc026_f,F. Manju Game,3704,False,https://atcoder.jp/contests/agc026/tasks/agc026_f
+agc035,agc035_e,E. Develop,3720,False,https://atcoder.jp/contests/agc035/tasks/agc035_e
+agc035,agc035_f,F. Two Histograms,3720,False,https://atcoder.jp/contests/agc035/tasks/agc035_f
+agc019,agc019_f,F. Yes or No,3742,False,https://atcoder.jp/contests/agc019/tasks/agc019_f
+agc030,agc030_e,E. Less than 3,3753,False,https://atcoder.jp/contests/agc030/tasks/agc030_e
+agc016,agc016_f,F. Games on DAG,3754,False,https://atcoder.jp/contests/agc016/tasks/agc016_f
+agc046,agc046_e,E. Permutation Cover,3772,False,https://atcoder.jp/contests/agc046/tasks/agc046_e
+agc028,agc028_f2,F2. Reachable Cells,3778,False,https://atcoder.jp/contests/agc028/tasks/agc028_f2
+agc036,agc036_e,E. ABC String,3783,False,https://atcoder.jp/contests/agc036/tasks/agc036_e
+agc036,agc036_f,F. Square Constraints,3783,False,https://atcoder.jp/contests/agc036/tasks/agc036_f
+agc018,agc018_f,F. Two Trees,3793,False,https://atcoder.jp/contests/agc018/tasks/agc018_f
+agc037,agc037_f,F. Counting of Subarrays,3797,False,https://atcoder.jp/contests/agc037/tasks/agc037_f
+agc071,agc071_d,D. Level K Terms,3807,False,https://atcoder.jp/contests/agc071/tasks/agc071_d
+agc048,agc048_e,E. Strange Relation,3819,False,https://atcoder.jp/contests/agc048/tasks/agc048_e
+agc058,agc058_e,E. Nearer Permutation,3825,False,https://atcoder.jp/contests/agc058/tasks/agc058_e
+agc038,agc038_e,E. Gachapon,3831,False,https://atcoder.jp/contests/agc038/tasks/agc038_e
+agc059,agc059_e,E. Grid 3-coloring,3842,False,https://atcoder.jp/contests/agc059/tasks/agc059_e
+agc069,agc069_c,C. AB*A Changing,3853,False,https://atcoder.jp/contests/agc069/tasks/agc069_c
+agc046,agc046_f,F. Forbidden Tournament,3854,False,https://atcoder.jp/contests/agc046/tasks/agc046_f
+agc011,agc011_f,F. Train Service Planning,3863,False,https://atcoder.jp/contests/agc011/tasks/agc011_f
+agc022,agc022_d,D. Shopping,3866,False,https://atcoder.jp/contests/agc022/tasks/agc022_d
+agc056,agc056_e,E. Cheese,3877,False,https://atcoder.jp/contests/agc056/tasks/agc056_e
+agc010,agc010_e,E. Rearranging,3887,False,https://atcoder.jp/contests/agc010/tasks/agc010_e
+agc031,agc031_f,F. Walk on Graph,3887,False,https://atcoder.jp/contests/agc031/tasks/agc031_f
+agc065,agc065_f,F. Always Perfect,3889,False,https://atcoder.jp/contests/agc065/tasks/agc065_f
+agc041,agc041_f,F. Histogram Rooks,3893,False,https://atcoder.jp/contests/agc041/tasks/agc041_f
+agc061,agc061_e,E. Increment or XOR,3901,False,https://atcoder.jp/contests/agc061/tasks/agc061_e
+agc013,agc013_f,F. Two Faced Cards,3905,False,https://atcoder.jp/contests/agc013/tasks/agc013_f
+agc007,agc007_e,E. Shik and Travel,3906,False,https://atcoder.jp/contests/agc007/tasks/agc007_e
+agc025,agc025_f,F. Addition and Andition,3936,False,https://atcoder.jp/contests/agc025/tasks/agc025_f
+agc021,agc021_e,E. Ball Eat Chameleons,3944,False,https://atcoder.jp/contests/agc021/tasks/agc021_e
+agc053,agc053_d,D. Everyone is a winner,3949,False,https://atcoder.jp/contests/agc053/tasks/agc053_d
+agc018,agc018_e,E. Sightseeing Plan,3953,False,https://atcoder.jp/contests/agc018/tasks/agc018_e
+agc032,agc032_f,F. One Third,3975,False,https://atcoder.jp/contests/agc032/tasks/agc032_f
+agc004,agc004_f,F. Namori,3986,False,https://atcoder.jp/contests/agc004/tasks/agc004_f
+agc008,agc008_f,F. Black Radius,3995,False,https://atcoder.jp/contests/agc008/tasks/agc008_f
+agc053,agc053_e,E. More Peaks More Fun,4036,False,https://atcoder.jp/contests/agc053/tasks/agc053_e
+agc072,agc072_d,D. Magician,4043,False,https://atcoder.jp/contests/agc072/tasks/agc072_d
+agc039,agc039_f,F. Min Product Sum,4060,False,https://atcoder.jp/contests/agc039/tasks/agc039_f
+agc051,agc051_e,E. Middle Point,4061,False,https://atcoder.jp/contests/agc051/tasks/agc051_e
+agc051,agc051_f,F. rng_58's Last Problem,4061,False,https://atcoder.jp/contests/agc051/tasks/agc051_f
+agc047,agc047_f,F. Rooks,4066,False,https://atcoder.jp/contests/agc047/tasks/agc047_f
+agc064,agc064_e,E. Cross Sum Construction,4069,False,https://atcoder.jp/contests/agc064/tasks/agc064_e
+agc050,agc050_f,F. NAND Tree,4076,False,https://atcoder.jp/contests/agc050/tasks/agc050_f
+agc015,agc015_f,F. Kenus the Ancient Greek,4083,False,https://atcoder.jp/contests/agc015/tasks/agc015_f
+agc061,agc061_f,F. Perfect Strings,4084,False,https://atcoder.jp/contests/agc061/tasks/agc061_f
+agc028,agc028_e,E. High Elements,4123,False,https://atcoder.jp/contests/agc028/tasks/agc028_e
+agc057,agc057_e,E. RowCol/ColRow Sort,4128,False,https://atcoder.jp/contests/agc057/tasks/agc057_e
+agc057,agc057_f,F. Reflection,4128,False,https://atcoder.jp/contests/agc057/tasks/agc057_f
+agc021,agc021_f,F. Trinity,4145,False,https://atcoder.jp/contests/agc021/tasks/agc021_f
+agc014,agc014_f,F. Strange Sorting,4201,False,https://atcoder.jp/contests/agc014/tasks/agc014_f
+agc070,agc070_d,D. 2D Solitaire,4211,False,https://atcoder.jp/contests/agc070/tasks/agc070_d
+agc062,agc062_e,E. Overlap Binary Tree,4233,False,https://atcoder.jp/contests/agc062/tasks/agc062_e
+agc065,agc065_e,E. One Two Three,4235,False,https://atcoder.jp/contests/agc065/tasks/agc065_e
+agc069,agc069_e,E. Pair of Sequences,4255,False,https://atcoder.jp/contests/agc069/tasks/agc069_e
+agc063,agc063_f,F. Simultaneous Floor,4273,False,https://atcoder.jp/contests/agc063/tasks/agc063_f
+agc055,agc055_f,F. Creative Splitting,4288,False,https://atcoder.jp/contests/agc055/tasks/agc055_f
+agc054,agc054_f,F. Decrement,4300,False,https://atcoder.jp/contests/agc054/tasks/agc054_f
+agc056,agc056_f,F. Degree Sequence in DFS Order,4310,False,https://atcoder.jp/contests/agc056/tasks/agc056_f
+agc043,agc043_f,F. Jewelry Box,4347,False,https://atcoder.jp/contests/agc043/tasks/agc043_f
+agc045,agc045_f,F. Division into Multiples,4383,False,https://atcoder.jp/contests/agc045/tasks/agc045_f
+agc001,agc001_a,A. BBQ Easy,,False,https://atcoder.jp/contests/agc001/tasks/agc001_a
+agc001,agc001_b,B. Mysterious Light,,False,https://atcoder.jp/contests/agc001/tasks/agc001_b
+agc001,agc001_c,C. Shorten Diameter,,False,https://atcoder.jp/contests/agc001/tasks/agc001_c
+agc001,agc001_d,D. Arrays and Palindrome,,False,https://atcoder.jp/contests/agc001/tasks/agc001_d
+agc001,agc001_e,E. BBQ Hard,,False,https://atcoder.jp/contests/agc001/tasks/agc001_e
+agc001,agc001_f,F. Wide Swap,,False,https://atcoder.jp/contests/agc001/tasks/agc001_f
+agc012,agc012_f,F. Prefix Median,,False,https://atcoder.jp/contests/agc012/tasks/agc012_f
+agc020,agc020_f,F. Arcs on a Circle,,False,https://atcoder.jp/contests/agc020/tasks/agc020_f
+agc040,agc040_f,F. Two Pieces,,False,https://atcoder.jp/contests/agc040/tasks/agc040_f
+agc044,agc044_f,F. Name-Preserving Clubs,,False,https://atcoder.jp/contests/agc044/tasks/agc044_f
+agc045,agc045_e,E. Fragile Balls,,False,https://atcoder.jp/contests/agc045/tasks/agc045_e
+agc048,agc048_f,F. 01 Record,,False,https://atcoder.jp/contests/agc048/tasks/agc048_f
+agc049,agc049_f,F. Happy Sequence,,False,https://atcoder.jp/contests/agc049/tasks/agc049_f
+agc050,agc050_e,E. Three Traffic Lights,,False,https://atcoder.jp/contests/agc050/tasks/agc050_e
+agc052,agc052_f,F. Tree Vertices XOR,,False,https://atcoder.jp/contests/agc052/tasks/agc052_f
+agc053,agc053_f,F. ESPers,,False,https://atcoder.jp/contests/agc053/tasks/agc053_f
+agc055,agc055_e,E. Set Merging,,False,https://atcoder.jp/contests/agc055/tasks/agc055_e
+agc058,agc058_f,F. Authentic Tree DP,,False,https://atcoder.jp/contests/agc058/tasks/agc058_f
+agc059,agc059_f,F. LIDS,,False,https://atcoder.jp/contests/agc059/tasks/agc059_f
+agc060,agc060_f,F. Spanning Trees of Interval Graph,,False,https://atcoder.jp/contests/agc060/tasks/agc060_f
+agc062,agc062_f,F. Preserve Distinct,,False,https://atcoder.jp/contests/agc062/tasks/agc062_f
+agc064,agc064_f,F. No Permutations,,False,https://atcoder.jp/contests/agc064/tasks/agc064_f
+agc066,agc066_f,F. Beautiful String,,False,https://atcoder.jp/contests/agc066/tasks/agc066_f
+agc067,agc067_e,E. Biconnected Graph,,False,https://atcoder.jp/contests/agc067/tasks/agc067_e
+agc070,agc070_e,E. Remove 2K+1 Edges,,False,https://atcoder.jp/contests/agc070/tasks/agc070_e
+agc071,agc071_e,E. Procrastinate Counter,,False,https://atcoder.jp/contests/agc071/tasks/agc071_e
+agc072,agc072_e,E. Flights 2,,False,https://atcoder.jp/contests/agc072/tasks/agc072_e
+agc073,agc073_d,D. Four Jewels,,False,https://atcoder.jp/contests/agc073/tasks/agc073_d

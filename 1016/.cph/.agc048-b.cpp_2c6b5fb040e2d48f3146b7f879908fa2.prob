@@ -1,0 +1,1 @@
+{"name":"Local: agc048-b","url":"/root/hibikara/1016/agc048-b.cpp","tests":[{"id":1760635775458,"input":"4\n4 2 3 1\n2 3 2 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1016/agc048-b.cpp","group":"local","local":true}

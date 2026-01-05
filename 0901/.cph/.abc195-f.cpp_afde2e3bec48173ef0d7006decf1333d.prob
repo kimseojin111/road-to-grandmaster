@@ -1,0 +1,1 @@
+{"name":"Local: abc195-f","url":"/root/hibikara/0901/abc195-f.cpp","tests":[{"id":1756740959072,"input":"2 4\n","output":""},{"id":1756741858656,"input":"1 1\n","output":""},{"id":1756741863078,"input":"123456789000 123456789050\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0901/abc195-f.cpp","group":"local","local":true}

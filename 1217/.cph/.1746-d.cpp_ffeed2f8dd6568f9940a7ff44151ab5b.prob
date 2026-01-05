@@ -1,0 +1,1 @@
+{"name":"Local: 1746-d","url":"/root/hibikara/1217/1746-d.cpp","tests":[{"id":1765960816753,"input":"2\n5 4\n1 2 1 3\n6 2 1 5 7\n5 3\n1 2 1 3\n6 6 1 4 10\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1217/1746-d.cpp","group":"local","local":true}

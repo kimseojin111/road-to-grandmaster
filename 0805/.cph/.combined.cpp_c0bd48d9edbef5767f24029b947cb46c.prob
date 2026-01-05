@@ -1,0 +1,1 @@
+{"name":"Local: combined","url":"/root/hibikara/0805/combined.cpp","tests":[{"id":1754386072650,"input":"1","output":""},{"id":1754386078626,"input":"4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0805/combined.cpp","group":"local","local":true}

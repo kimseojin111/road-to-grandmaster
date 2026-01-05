@@ -1,0 +1,1 @@
+{"name":"Local: 2174-f","url":"/root/hibikara/1214/2174-f.cpp","tests":[{"id":1765707249650,"input":"5\n4 2\n1 2 1 2\n0 0\n4 1\n1 1 1 1\n1\n5 1\n1 1 1 1 1\n0\n6 4\n1 2 1 2 1 4\n0 1 0 1\n1 3\n3\n1 0 0\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1214/2174-f.cpp","group":"local","local":true}

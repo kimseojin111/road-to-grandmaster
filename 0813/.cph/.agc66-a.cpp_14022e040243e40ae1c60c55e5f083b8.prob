@@ -1,0 +1,1 @@
+{"name":"Local: agc66-a","url":"/root/hibikara/0813/agc66-a.cpp","tests":[{"id":1755097395310,"input":"3 5\n-2 1 3\n3 -4 -4\n0 1 3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/0813/agc66-a.cpp","group":"local","local":true}

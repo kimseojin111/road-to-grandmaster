@@ -1,0 +1,1 @@
+{"name":"Local: agc063-a","url":"/root/hibikara/1016/agc063-a.cpp","tests":[{"id":1760622689374,"input":"2\nABB\n","output":""},{"id":1760622698168,"input":"4\nAAAAA\n","output":""},{"id":1760622702322,"input":"7\nBBAABABA\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1016/agc063-a.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: 2096-e","url":"/root/hibikara/1216/2096-e.cpp","tests":[{"id":1765874355405,"input":"5\n3\nPPP\n3\nBPP\n3\nPPB\n7\nPPBPPBB\n15\nBPBPBBBBBPBBBBB\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/hibikara/1216/2096-e.cpp","group":"local","local":true}
