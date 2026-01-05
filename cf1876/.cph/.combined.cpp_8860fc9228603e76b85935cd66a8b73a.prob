@@ -1,0 +1,1 @@
+{"name":"Local: combined","url":"/root/codeforces/road-to-grandmaster/cf1876/combined.cpp","tests":[{"id":1744532230338,"input":"4\n2000 2000 2000\n1999 2000 2000\n2000 1999 2000\n1999 1999 2000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/codeforces/road-to-grandmaster/cf1876/combined.cpp","group":"local","local":true}

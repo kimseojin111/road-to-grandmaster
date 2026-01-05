@@ -1,0 +1,1 @@
+{"name":"Local: e","url":"/root/codeforces/road-to-grandmaster/arc197/e.cpp","tests":[{"id":1746802558561,"input":"4\n2 4 5\n2 5 5\n1000 1000 1000\n1000 2222 2025\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/codeforces/road-to-grandmaster/arc197/e.cpp","group":"local","local":true}

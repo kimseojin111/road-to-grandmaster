@@ -1,0 +1,1 @@
+{"name":"Local: arc_60e","url":"/root/codeforces/road-to-grandmaster/random_upsolve/arc_60e.cpp","tests":[{"id":1747845948243,"input":"9\n1 3 6 13 15 18 19 29 31\n10\n4\n1 8\n7 3\n6 7\n8 5\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/root/codeforces/road-to-grandmaster/random_upsolve/arc_60e.cpp","group":"local","local":true}
