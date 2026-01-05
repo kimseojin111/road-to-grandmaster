@@ -1,13 +1,13 @@
 # 🛣️ Road to Grandmaster
 
 Welcome to my journey toward becoming a **Codeforces Grandmaster** (rating 2400+)!  
-This repository tracks my progress, practice logs, and key learnings as I strive to reach the top.
+This repository tracks my progress, practice logs, and key learnings.
 
 ## 👤 Profile
 
-- **Handle:** [JinyeongAckerman](https://codeforces.com/profile/JinyeongAckerman)  
+- **Handle:** [gs25](https://codeforces.com/profile/gs25)  
 - **Current Rank:** Master  
 - **Goal:** Grandmaster (2400+)
 
 ## 🧭 Goals
-- [ ] Reach Grandmaster by [2025-08]
+- [ ] Reach Grandmaster by [2026]
